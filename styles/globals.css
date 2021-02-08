@@ -64,3 +64,15 @@ a {
 * {
   box-sizing: border-box;
 }
+
+@media (max-width: 683px) {
+  .media-desktop {
+    display: none !important;
+  }
+}
+
+@media (min-width: 684px) {
+  .media-mobile {
+    display: none;
+  }
+}

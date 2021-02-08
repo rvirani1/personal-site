@@ -5,7 +5,7 @@ export default function Blog() {
   return (
     <>
       <Head>
-        <title>RiazV.me - Blog</title>
+        <title>Blog - RiazV.me</title>
         <meta
           name="description"
           content="Riaz Virani writes blog articles of various sorts based on things that interest him."

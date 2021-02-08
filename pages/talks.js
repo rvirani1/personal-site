@@ -5,7 +5,7 @@ export default function Talks() {
   return (
     <>
       <Head>
-        <title>RiazV.me - Talks</title>
+        <title>Talks - RiazV.me</title>
         <meta content="Recording of Riaz Virani's talks on various technology products." />
       </Head>
 

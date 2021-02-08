@@ -1,0 +1,148 @@
+/* Main menu positionning */
+.mainNav {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  text-align: center;
+  background: #FFF;
+  opacity: 0;
+  z-index: -1;
+  visibility: hidden;
+  transition: all .375s;
+
+  &.isOpen {
+    opacity: 1;
+    z-index: 100;
+    visibility: visible;
+    &:before {
+      transform: skew(-14deg) translateX(0);
+    }
+
+    a {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  /* Yellow band effect */
+  &:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: -15px;
+    background: #FEDC2A;
+    transform-origin: 0 0;
+    transform: skew(-14deg) translateX(-120%);
+    transition: all .275s .1s;
+  }
+
+  li:nth-child(1) a {
+    transition: all 275ms 175ms
+  }
+  li:nth-child(2) a {
+    transition: all 275ms 225ms
+  }
+  li:nth-child(3) a {
+    transition: all 275ms 275ms
+  }
+}
+
+.navList {
+  /* Skewing effect on menu links */
+  display: inline-flex;
+  flex-direction: column;
+  height: 100%; /* Should be 100%, but we have a notice message :D */
+  align-items: flex-end;
+  justify-content: center;
+  transform: translateX(-18%) skew(-16deg);
+
+  /* Text decotration*/
+  list-style: none;
+  padding: 0;
+}
+
+.navItem {
+  /* Skewing effect on menu links */
+  display: block;
+  margin: .5rem 0;
+  text-align: right;
+  transform: skew(16deg);
+
+  /* Text decoration */
+  list-style: none;
+  padding: 0;
+}
+
+/* Apparition effect on links */
+.navLink {
+  opacity: 0;
+  transform: translateY(-10px);
+
+  /* Regular styling on these*/
+  display: block;
+  padding: 12px 0;
+  color: #333;
+  font-size: 2em;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+/* Burger Style: @see: https://codepen.io/CreativeJuiz/full/oMZNXy */
+.toggleButton {
+  position: absolute;
+  top: 20px;
+  padding-top: 20px;
+  right: 15px;
+  z-index: 1000;
+  background: none;
+  border: 0;
+  cursor: pointer;
+
+  &:focus {
+    outline: none;
+  }
+}
+.burger {
+  position: relative;
+  display: block;
+  width: 28px;
+  height: 4px;
+  margin: 0 auto;
+  background: #222;
+  transform: skew(5deg);
+  transition: all .275s;
+
+  &:after,
+  &:before {
+    content: '';
+    display: block;
+    height: 100%;
+    background: #222;
+    transition: all .275s;
+  }
+
+  &:after {
+    transform: translateY(-12px) translateX(-2px) skew(-20deg);
+  }
+
+  &:before {
+    transform: translateY(-16px) skew(-10deg);
+  }
+}
+
+/* Toggle State part */
+.isOpen .burger {
+  transform: skew(5deg) translateY(-8px) rotate(-45deg);
+
+  &:before {
+    transform: translateY(0px) skew(-10deg) rotate(75deg);
+  }
+  &:after {
+    transform: translateY(-12px) translateX(10px) skew(-20deg);
+    opacity: 0;
+  }
+}

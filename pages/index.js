@@ -5,7 +5,7 @@ export default function Index() {
   return (
     <>
       <Head>
-        <title>RiazV.me Home</title>
+        <title>Home - RiazV.me</title>
         <meta
           name="description"
           content="Riaz Virani is a Toronto based full stack web developer with expertise in React
