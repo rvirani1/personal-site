@@ -38,11 +38,6 @@ export function Header() {
                   <a>Talks</a>
                 </Link>
               </li>
-              <li className={styles.menuLink} style={{ marginLeft: 20 }}>
-                <Link href="/contact">
-                  <a>Contact</a>
-                </Link>
-              </li>
             </ul>
           </nav>
           <div className={styles.headerRight}>
