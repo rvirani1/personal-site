@@ -10,7 +10,7 @@ class MyDocument extends Document {
 
   render() {
     return (
-      <Html>
+      <Html lang="en">
         <Head>
           {/* TODO: Replace with Inline fonts */}
           <link rel="preconnect" href="https://fonts.gstatic.com" />
