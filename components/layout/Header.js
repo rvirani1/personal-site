@@ -8,6 +8,7 @@ import { EmailIcon } from './header/EmailIcon'
 import { PhoneIcon } from './header/PhoneIcon'
 
 export function Header() {
+  // noinspection HtmlUnknownTarget
   return (
     <header className={styles.header}>
       <span className={styles.headerInner}>

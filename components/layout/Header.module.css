@@ -24,12 +24,6 @@
  color: inherit;
 }
 
-.links {
- max-width: var(--content-width);
- margin: 0 auto;
- padding: 0;
-}
-
 .headerRight {
  display: flex;
  flex-direction: row;
