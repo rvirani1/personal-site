@@ -5,7 +5,7 @@
 }
 
 .logoSvg {
-  color: var(--color);
+  color: var(--logo-color);
   width: 0.95rem;
   height: 100%;
 }
