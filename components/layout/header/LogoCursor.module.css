@@ -1,0 +1,16 @@
+@keyframes blink {
+  0%, 100% { opacity: 0 }
+  50% { opacity: 1 }
+}
+
+
+.logoCursor {
+  display: inline-block;
+  width: 10px;
+  height: 1rem;
+  background: #fe5186;
+  margin-left: 5px;
+  border-radius: 1px;
+  animation: blink 1.6s infinite;
+  font-weight: 700;
+}

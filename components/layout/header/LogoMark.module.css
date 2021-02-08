@@ -1,0 +1,16 @@
+.logoMark {
+  display: inline-flex;
+  align-items: center;
+  margin-right: 5px;
+}
+
+.logoSvg {
+  color: var(--color);
+  width: 0.95rem;
+  height: 100%;
+}
+
+.logoSvgPath {
+  stroke: currentColor;
+  stroke-width: 8px;
+}

@@ -1,9 +1,30 @@
+:root {
+  --nav-bottom-border: rgb(210, 226, 209);
+  --content-width: 56em;
+  --common-font: 'Inter', -apple-system, 'BlinkMacSystemFont', 'Roboto', 'Segoe UI', 'Helvetica', 'Arial', sans-serif;
+  --background: #fff;
+  --color: #222;
+  --background-secondary: #eaeaea;
+  --header: #fafafa;
+  --color-secondary: #999;
+  --border-color: #dcdcdc;
+}
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: var(--common-font);
+  font-size: 1rem;
+  font-feature-settings: "liga", "tnum", "case", "calt", "zero", "ss01", "locl";
+  line-height: 1.54;
+  font-weight: 500;
+  background-color: var(--background);
+  color: var(--color);
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
 }
 
 a {

@@ -1,15 +1,15 @@
 import Head from 'next/head';
 import { Layout } from '../components/Layout';
 
-export default function Index() {
+export default function Contact() {
   return (
     <>
       <Head>
-        <title>RiazV.me Home</title>
+        <title>RiazV.me - Contact</title>
       </Head>
 
       <Layout>
-        <p>alsdjf</p>
+        <p>contact</p>
 
       </Layout>
     </>
