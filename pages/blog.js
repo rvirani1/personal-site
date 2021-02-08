@@ -6,6 +6,10 @@ export default function Blog() {
     <>
       <Head>
         <title>RiazV.me - Blog</title>
+        <meta
+          name="description"
+          content="Riaz Virani writes blog articles of various sorts based on things that interest him."
+        />
       </Head>
 
       <Layout>

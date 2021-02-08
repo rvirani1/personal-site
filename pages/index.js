@@ -6,6 +6,11 @@ export default function Index() {
     <>
       <Head>
         <title>RiazV.me Home</title>
+        <meta
+          name="description"
+          content="Riaz Virani is a Toronto based full stack web developer with expertise in React
+          and Ruby on Rails. He is awesome. You should say hi."
+        />
       </Head>
 
       <Layout>

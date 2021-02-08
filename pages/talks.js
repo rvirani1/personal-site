@@ -6,6 +6,7 @@ export default function Talks() {
     <>
       <Head>
         <title>RiazV.me - Talks</title>
+        <meta content="Recording of Riaz Virani's talks on various technology products." />
       </Head>
 
       <Layout>
