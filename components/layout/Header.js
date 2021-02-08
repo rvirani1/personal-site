@@ -1,11 +1,11 @@
-import React from 'react';
-import Link from 'next/link';
+import React from 'react'
+import Link from 'next/link'
 
-import styles from './Header.module.css';
-import { LogoMark } from './header/LogoMark';
-import { LogoCursor } from './header/LogoCursor';
-import { EmailIcon } from './header/EmailIcon';
-import { PhoneIcon } from './header/PhoneIcon';
+import styles from './Header.module.css'
+import { LogoMark } from './header/LogoMark'
+import { LogoCursor } from './header/LogoCursor'
+import { EmailIcon } from './header/EmailIcon'
+import { PhoneIcon } from './header/PhoneIcon'
 
 export function Header() {
   return (
@@ -56,5 +56,5 @@ export function Header() {
         </span>
       </span>
     </header>
-  );
+  )
 }

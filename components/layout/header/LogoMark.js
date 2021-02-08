@@ -1,5 +1,5 @@
-import React from 'react';
-import styles from './LogoMark.module.css';
+import React from 'react'
+import styles from './LogoMark.module.css'
 
 export function LogoMark() {
   return (
@@ -12,5 +12,5 @@ export function LogoMark() {
         />
       </svg>
     </span>
-  );
+  )
 }

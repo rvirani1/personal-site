@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'
 
 // https://freeicons.io/e-cons-icons-set/phone-icon-35475
 
@@ -32,4 +32,4 @@ export const PhoneIcon = () => (
       </g>
     </g>
   </svg>
-);
+)

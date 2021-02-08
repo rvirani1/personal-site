@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'
 
 // https://freeicons.io/e-cons-icons-set/the-envelope-icon-35483
 
@@ -36,4 +36,4 @@ export const EmailIcon = () => (
       </g>
     </g>
   </svg>
-);
+)

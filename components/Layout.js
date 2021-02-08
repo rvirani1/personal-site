@@ -1,6 +1,6 @@
-import React from 'react';
-import { Header } from './layout/Header';
-import styles from './Layout.module.css';
+import React from 'react'
+import { Header } from './layout/Header'
+import styles from './Layout.module.css'
 
 export function Layout({ children }) {
   return (
@@ -8,5 +8,5 @@ export function Layout({ children }) {
       <Header />
       {children}
     </div>
-  );
+  )
 }

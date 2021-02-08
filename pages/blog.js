@@ -1,5 +1,5 @@
-import Head from 'next/head';
-import { Layout } from '../components/Layout';
+import Head from 'next/head'
+import { Layout } from '../components/Layout'
 
 export default function Blog() {
   return (
@@ -13,5 +13,5 @@ export default function Blog() {
 
       </Layout>
     </>
-  );
+  )
 }
