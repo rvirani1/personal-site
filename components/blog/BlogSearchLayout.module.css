@@ -1,0 +1,11 @@
+@media (max-width: 683px) {
+  .blogInner {
+    max-width: 85%;
+  }
+}
+
+@media (min-width: 684px) {
+  .blogInner {
+    max-width: 100%
+  }
+}
