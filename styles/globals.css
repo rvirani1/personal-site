@@ -28,7 +28,7 @@
 
 :root {
   --nav-bottom-border: rgb(210, 226, 209);
-  --content-width: 56em;
+  --content-width: 760px;
   --common-font: 'Inter', -apple-system, 'BlinkMacSystemFont', 'Roboto', 'Segoe UI', 'Helvetica', 'Arial', sans-serif;
   --background: #fff;
   --color: #222;

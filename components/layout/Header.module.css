@@ -5,14 +5,15 @@
  position: relative;
  align-items: center;
  justify-content: center;
- text-align: center;
 }
 
 .headerInner {
  display: flex;
  align-items: center;
  justify-content: space-between;
- margin: 0 auto; width: 760px; max-width: 100%
+ margin: 0 auto;
+ width: var(--content-width);
+ max-width: 100%;
 }
 
 .logo {

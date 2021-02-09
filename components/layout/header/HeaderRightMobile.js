@@ -26,7 +26,7 @@ export function HeaderRightMobile() {
             </Link>
           </li>
           <li className={styles.navItem}>
-            <Link href="/blog">
+            <Link href="/blog-search/one">
               <a className={styles.navLink}>Blogs</a>
             </Link>
           </li>

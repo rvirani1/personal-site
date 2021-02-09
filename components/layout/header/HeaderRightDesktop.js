@@ -14,7 +14,7 @@ export const HeaderRightDeskop = () => (
           </Link>
         </li>
         <li className={styles.menuLink} style={{ marginLeft: 20 }}>
-          <Link href="/blog">
+          <Link href="/blog-search/one">
             <a>Blog</a>
           </Link>
         </li>
