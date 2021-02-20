@@ -1,6 +1,6 @@
 import Head from 'next/head'
+import { BlogSearchItem } from '../../components/blog/BlogSearchItem'
 import { BlogSearchLayout } from '../../components/blog/BlogSearchLayout'
-import { BlogPost } from '../../components/blog/BlogPost'
 import { Layout } from '../../components/Layout'
 
 export default function One() {
@@ -16,7 +16,7 @@ export default function One() {
 
       <Layout>
         <BlogSearchLayout>
-          <BlogPost
+          <BlogSearchItem
             titleText="Learning Guide - Ruby on Rails"
             date="2016-01-20"
             path="/blog-entries/003-learning-guide-ruby-on-rails"
@@ -24,16 +24,16 @@ export default function One() {
             language/framework for about 18 months now. For better or worse, I think it’s been
             a good choice as my first deep venture into server-side development."
           />
-          <BlogPost
+          <BlogSearchItem
             titleText="A Project Is An Information System"
             date="2016-01-16"
-            path="/blog-entries/002-project-information-system"
+            path="/blog-entries/002-project-info-system"
             previewText="Think of your traditional software development team. Usually, the team has
             some software delivery or project management process. Maybe they have scrum boards, user
             stories, checkpoints, risk management registers, and the handy dandy PMBOK book (sometimes
             with a PMP Consultant)?"
           />
-          <BlogPost
+          <BlogSearchItem
             titleText="It Begins"
             date="2016-01-14"
             path="/blog-entries/001-it-begins"

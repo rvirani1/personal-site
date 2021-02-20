@@ -18,6 +18,12 @@
     "react"
   ],
   "rules": {
+    "max-len": [1, {
+      "code": 200
+    }],
+    "import/no-unresolved": [1, {
+      "caseSensitive": true
+    }],
     "import/prefer-default-export": "off",
     "jsx-a11y/anchor-is-valid": "off",
     "react/jsx-filename-extension": [

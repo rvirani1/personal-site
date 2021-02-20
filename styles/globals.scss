@@ -65,6 +65,13 @@ a {
   box-sizing: border-box;
 }
 
+a.sharedLink {
+  text-decoration: underline;
+  &:hover {
+    color: black;
+  }
+}
+
 @media (max-width: 683px) {
   .media-desktop {
     display: none !important;

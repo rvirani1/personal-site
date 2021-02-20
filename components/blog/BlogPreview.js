@@ -1,5 +1,6 @@
-export function BlogPreview({ previewText }) {
-  return (
-    <p style={{ fontWeight: 400, fontSize: '0.9rem' }}>{previewText}</p>
-  )
-}
+import React from 'react'
+import styles from './BlogPreview.module.css'
+
+export const BlogPreview = React.memo(({ previewText }) => (
+  <p className={styles.blogParagraph}>{previewText}</p>
+))

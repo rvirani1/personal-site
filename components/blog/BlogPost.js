@@ -1,22 +1,20 @@
 import React from 'react'
-import Link from 'next/link'
 import { BlogTitle } from './BlogTitle'
 import { BlogDate } from './BlogDate'
-import { BlogPreview } from './BlogPreview'
+import { BlogHr } from './BlogHr'
+import { LinkToSearch } from './LinkToSearch'
 
 export const BlogPost = React.memo(({
-  titleText, date, path, previewText,
+  titleText, date, children,
 }) => (
-  <div style={{ marginTop: 50, marginBottom: 50 }}>
-    <Link href={path}>
-      <a>
-        <BlogTitle titleText={titleText} />
-        <BlogDate date={date} />
-        <BlogPreview previewText={previewText} />
-        <div style={{ fontWeight: 700 }}>
-          Read More →
-        </div>
-      </a>
-    </Link>
+  <div style={{
+    marginTop: 50, marginBottom: 50, marginLeft: 20, marginRight: 20,
+  }}
+  >
+    <BlogTitle titleText={titleText} />
+    <BlogDate date={date} />
+    {children}
+    <BlogHr />
+    <LinkToSearch />
   </div>
 ))
