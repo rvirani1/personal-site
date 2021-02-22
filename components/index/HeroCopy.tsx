@@ -5,7 +5,7 @@ export function HeroCopy() {
   return (
     <div className={styles.wrapper}>
       <div style={{ display: 'flex', alignItems: 'baseline' }}>
-        <strong className={`${styles.firstWord} subtleShadow`}>Hi</strong>
+        <strong className={styles.firstWord}>Hi</strong>
         <span style={{ fontSize: '2rem', fontWeight: 700 }}>&nbsp;I&lsquo;m Riaz</span>
       </div>
       <div>
