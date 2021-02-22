@@ -1,6 +1,7 @@
+import { FunctionComponent } from 'react'
 import styles from './SearchLayout.module.css'
 
-export function SearchLayout({ children }) {
+export const SearchLayout: FunctionComponent = ({ children }) => {
   return (
     <div style={{ display: 'flex', justifyContent: 'center' }}>
       <div className={styles.blogInner}>

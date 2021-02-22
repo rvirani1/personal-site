@@ -14,7 +14,7 @@ export default function BlogEntry() {
         />
       </Head>
       <Layout>
-        <BlogPost titleText="It Begins" date="2016-01-14" path="/blog-entries/001-it-begins">
+        <BlogPost titleText="It Begins" date="2016-01-14">
           <p className={sharedStyles.blogParagraph}>
             Everything has to start somewhere and this is the start of my blog.
             I’m a developer by trade, so most of my posts will be related to tech and

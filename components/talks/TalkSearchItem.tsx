@@ -6,9 +6,17 @@ import { TalkTitle } from './TalkTitle'
 import { TalkDate } from './TalkDate'
 import { TalkPreview } from './TalkPreview'
 
+type Props = {
+  titleText: string,
+  date: string,
+  youtubeUrl: string,
+  previewText: string,
+  thumbnailImg: string
+}
+
 export const TalkSearchItem = React.memo(({
   titleText, date, youtubeUrl, previewText, thumbnailImg,
-}) => (
+}: Props) => (
   <div style={{ marginTop: 50, marginBottom: 50 }}>
     <Link href={youtubeUrl}>
       <a target="_blank" rel="noreferrer noopener" style={{ display: 'flex' }} className={styles.linkInner}>

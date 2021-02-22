@@ -1,6 +1,10 @@
 import React from 'react'
 
-export const HeaderActiveAccent = React.memo(({ isActive }) => {
+type Props = {
+  isActive: boolean
+}
+
+export const HeaderActiveAccent = React.memo(({ isActive }: Props) => {
   const borderBottomColor = isActive ? 'var(--logo-color)' : 'white'
   return (
     <div

@@ -1,10 +1,15 @@
-import React from 'react'
+import React, { FunctionComponent } from 'react'
 import { BlogTitle } from './BlogTitle'
 import { BlogDate } from './BlogDate'
 import { BlogHr } from './BlogHr'
 import { LinkToSearch } from './LinkToSearch'
 
-export const BlogPost = React.memo(({
+type Props = {
+  titleText: string,
+  date: string
+}
+
+export const BlogPost: FunctionComponent<Props> = React.memo(({
   titleText, date, children,
 }) => (
   <div style={{

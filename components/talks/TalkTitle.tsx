@@ -1,4 +1,8 @@
-export function TalkTitle({ titleText }) {
+type Props = {
+  titleText: string
+}
+
+export function TalkTitle({ titleText }: Props) {
   return (
     <h1
       style={{

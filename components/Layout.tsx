@@ -1,9 +1,10 @@
-import React from 'react'
+import React, { FunctionComponent } from 'react'
 import { motion } from 'framer-motion'
 import { Header } from './layout/Header'
 import styles from './Layout.module.css'
 
-export function Layout({ children }) {
+
+export const Layout: FunctionComponent = ({ children }) => {
   return (
     <div className={styles.container}>
       <Header />

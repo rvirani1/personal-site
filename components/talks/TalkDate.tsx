@@ -1,6 +1,10 @@
 import styles from './TalkDate.module.scss'
 
-export function TalkDate({ date }) {
+type Props = {
+  date: string
+}
+
+export function TalkDate({ date }: Props) {
   return (
     <div className={styles.date}>
       {date}
