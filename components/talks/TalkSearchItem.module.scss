@@ -1,0 +1,24 @@
+.imageOuter {
+  @media (max-width: 683px) {
+    margin-bottom: 20px;
+  }
+}
+
+.image {
+  border-radius: 5%;
+  margin-top: 30px;
+  margin-bottom: 10px;
+
+}
+
+.linkInner {
+  @media (max-width: 683px) {
+    flex-direction: column;
+  }
+
+  @media (min-width: 684px) {
+    flex-direction: row;
+  }
+}
+
+

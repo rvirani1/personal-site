@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import { BlogSearchItem } from '../../components/blog/BlogSearchItem'
-import { BlogSearchLayout } from '../../components/blog/BlogSearchLayout'
+import { SearchLayout } from '../../components/layout/SearchLayout'
 import { Layout } from '../../components/Layout'
 
 export default function One() {
@@ -15,7 +15,7 @@ export default function One() {
       </Head>
 
       <Layout>
-        <BlogSearchLayout>
+        <SearchLayout>
           <BlogSearchItem
             titleText="Learning Guide - Ruby on Rails"
             date="2016-01-20"
@@ -41,7 +41,7 @@ export default function One() {
             I’m a developer by trade, so most of my posts will be related to tech and something
             I’ve tried to solve."
           />
-        </BlogSearchLayout>
+        </SearchLayout>
       </Layout>
     </>
   )

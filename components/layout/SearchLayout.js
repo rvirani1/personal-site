@@ -1,6 +1,6 @@
-import styles from './BlogSearchLayout.module.css'
+import styles from './SearchLayout.module.css'
 
-export function BlogSearchLayout({ children }) {
+export function SearchLayout({ children }) {
   return (
     <div style={{ display: 'flex', justifyContent: 'center' }}>
       <div className={styles.blogInner}>
