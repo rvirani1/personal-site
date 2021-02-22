@@ -9,7 +9,7 @@ export function HeroImage() {
         layout="fixed"
         src="/homepage.png"
         width={250}
-        height={325}
+        height={342}
         className={styles.heroImage}
       />
     </div>
