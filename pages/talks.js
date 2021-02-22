@@ -15,6 +15,14 @@ export default function Talks() {
       <Layout>
         <SearchLayout>
           <TalkSearchItem
+            titleText="Drifting Ruby Interview"
+            date="May 16, 2019"
+            youtubeUrl="https://www.driftingruby.com/episodes/interview-with-riaz-virani"
+            thumbnailImg="/talk-thumbnails/drifting-ruby.png"
+            previewText="More talking! I recently got to do an interview with the folks over at DriftingRuby about my experience organizing the Atlanta Ruby Meetup. Check it out!"
+          />
+          <TalkHr />
+          <TalkSearchItem
             titleText="Supply Chain Radio"
             date="May 6, 2019"
             youtubeUrl="https://businessradiox.com/podcast/supply-chain-now/episode-74/"

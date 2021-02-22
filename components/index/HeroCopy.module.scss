@@ -1,0 +1,32 @@
+.andWord {
+  font-size: 1.6rem;
+  margin-right: 1rem;
+}
+
+.firstWord {
+  color: var(--logo-color);
+  font-size: 3rem;
+  margin-right: 1rem;
+  font-weight: 700;
+}
+
+.heroText {
+  font-size: 1.1rem;
+}
+
+.keyword {
+  color: var(--logo-text-color);
+  font-weight: 700;
+  font-size: 1.25rem;
+}
+
+.wrapper {
+  margin-right: 20px;
+
+  @media (max-width: 683px) {
+    flex-direction: column-reverse;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+  }
+}

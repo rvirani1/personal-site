@@ -1,0 +1,19 @@
+.heroLayout {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+  width: 100%;
+
+  @media (max-width: 683px) {
+    flex-direction: column-reverse;
+  }
+}
+
+.homeLayout {
+  display: flex;
+  flex-direction: column;
+}
+
+.webmasterChuckles{
+  border-radius: 10%;
+}

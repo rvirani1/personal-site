@@ -1,0 +1,18 @@
+.heroWrapper {
+  height: 325px;
+
+  @media (min-width: 684px) {
+    width: 250px;
+  }
+
+  @media (max-width: 683px) {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.heroImage {
+  border-radius: 20%;
+}
+

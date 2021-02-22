@@ -7,6 +7,7 @@
   url('/fonts/inter-v3-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
   url('/fonts/inter-v3-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
+
 /* inter-500 - latin */
 @font-face {
   font-family: 'Inter';
@@ -16,6 +17,7 @@
   url('/fonts/inter-v3-latin-500.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
   url('/fonts/inter-v3-latin-500.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
+
 /* inter-700 - latin */
 @font-face {
   font-family: 'Inter';
@@ -37,7 +39,10 @@
   --color-secondary: #999;
   --border-color: #dcdcdc;
   --logo-color: #00c569;
+  --logo-text-color: #00b15e;
 }
+
+$minBreakpoint: 683px;
 
 html,
 body {
@@ -67,9 +72,14 @@ a {
 
 a.sharedLink {
   text-decoration: underline;
+
   &:hover {
     color: black;
   }
+}
+
+.subtleShadow {
+  text-shadow: 2px 3px 5px rgba(231, 231, 231, 0.5);
 }
 
 @media (max-width: 683px) {

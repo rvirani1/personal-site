@@ -17,6 +17,57 @@ export default function One() {
       <Layout>
         <SearchLayout>
           <BlogSearchItem
+            titleText="Using the OverCommit Gem: The Poor Man's CI"
+            date="2019-01-10"
+            path="/blog-entries/010-overcommit"
+            previewText="Don't have money for a fancy CI and work solo.
+            Maybe the overcommit gem is all you need for CI"
+          />
+          <BlogSearchItem
+            titleText="Heroku Slug Sizes Impact Your Boot Time"
+            date="2018-12-27"
+            path="/blog-entries/009-heroku-slug-sizes"
+            previewText="If you come from server side rendering, the world of client side rendering
+            can be kind of confusing."
+          />
+          <BlogSearchItem
+            titleText="What is Client Side Routing?"
+            date="2018-11-24"
+            path="/blog-entries/008-what-is-client-side-routing"
+            previewText="If you come from server side rendering, the world of client side rendering
+            can be kind of confusing."
+          />
+          <BlogSearchItem
+            titleText="Book TL;DR - Learned Optimism"
+            date="2017-06-30"
+            path="/blog-entries/007-learned-optimism"
+            previewText="This is a quick book review of Learned Optimism by Martin Seligman"
+          />
+          <BlogSearchItem
+            titleText="Installing a Ruby Gem Globally in RVM"
+            date="2017-01-06"
+            path="/blog-entries/006-global-rvm-gem"
+            previewText="If you are a Rubyist and use RVM, you have probably used RVM gemsets
+            before. If you haven’t, you should because it has some nifty features that will
+            make your life easier. Here’s one of them"
+          />
+          <BlogSearchItem
+            titleText="Teaching at The New School Atlanta"
+            date="2016-02-23"
+            path="/blog-entries/005-teaching-new-school"
+            previewText="Recently, I just finished teaching a month-long programming boot camp
+            at a local private high school, The New School. It was my first experience teaching
+            high school age students. Needless to say, my students were amazing."
+          />
+          <BlogSearchItem
+            titleText="Leading a Pair Programming Meeup"
+            date="2016-01-23"
+            path="/blog-entries/004-leading-pair-programming"
+            previewText="In July of 2015, I started hosting a Pair Programming meetup as a
+            part of the Atlanta Ruby Users Group. Most of the coding-oriented meetups I
+            attended were fun as social events, but they always revolved..."
+          />
+          <BlogSearchItem
             titleText="Learning Guide - Ruby on Rails"
             date="2016-01-20"
             path="/blog-entries/003-learning-guide-ruby-on-rails"

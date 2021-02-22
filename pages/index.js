@@ -1,5 +1,10 @@
 import Head from 'next/head'
 import { Layout } from '../components/Layout'
+import styles from './index.module.scss'
+import { BlogHr } from '../components/blog/BlogHr'
+import { HeroCopy } from '../components/index/HeroCopy'
+import { HeroImage } from '../components/index/HeroImage'
+import { SiteExplainer } from '../components/index/SiteExplainer'
 
 export default function Index() {
   return (
@@ -14,8 +19,14 @@ export default function Index() {
       </Head>
 
       <Layout>
-        <p>alsdjf</p>
-
+        <div className={styles.homeLayout}>
+          <div className={styles.heroLayout}>
+            <HeroCopy />
+            <HeroImage />
+          </div>
+          <BlogHr />
+          <SiteExplainer />
+        </div>
       </Layout>
     </>
   )
