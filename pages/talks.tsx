@@ -15,6 +15,15 @@ export default function Talks() {
       <Layout>
         <SearchLayout>
           <TalkSearchItem
+            titleText="Building Hybrid Mobile Apps Using Expo"
+            date="July 21, 2020"
+            youtubeUrl="https://www.youtube.com/watch?v=bQC-Bxl5fUI"
+            thumbnailImg="/talk-thumbnails/expo.png"
+            previewText="This is a talk I gave at the Atlanta React Meetup about using Expo to build React
+            Native apps."
+          />
+          <TalkHr />
+          <TalkSearchItem
             titleText="Drifting Ruby Interview"
             date="May 16, 2019"
             youtubeUrl="https://www.driftingruby.com/episodes/interview-with-riaz-virani"
