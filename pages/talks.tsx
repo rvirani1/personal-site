@@ -41,6 +41,14 @@ export default function Talks() {
           />
           <TalkHr />
           <TalkSearchItem
+            titleText="GraphQL Loves Ruby"
+            date="January 9, 2019"
+            youtubeUrl="https://www.youtube.com/watch?v=XVEsCKGNkus"
+            thumbnailImg="/talk-thumbnails/graphql-ruby.png"
+            previewText="This was a talk I gave at the Atlanta Ruby Meetup on GraphQL and Ruby"
+          />
+          <TalkHr />
+          <TalkSearchItem
             titleText="JavaScript Everywhere"
             date="March 30, 2017"
             youtubeUrl="https://www.youtube.com/watch?v=d1upI3mwfNY"

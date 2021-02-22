@@ -22,7 +22,7 @@ export const TalkSearchItem = React.memo(({
       <a target="_blank" rel="noreferrer noopener" style={{ display: 'flex' }} className={styles.linkInner}>
         <div className={styles.imageOuter}>
           <Image
-            alt="Picture of presentation from Curly Braces conference"
+            alt="Screenshot from video presentation"
             layout="fixed"
             src={thumbnailImg}
             width={300}
