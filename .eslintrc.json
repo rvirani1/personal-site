@@ -18,9 +18,7 @@
     "react"
   ],
   "rules": {
-    "max-len": [1, {
-      "code": 200
-    }],
+    "max-len": "off",
     "import/no-unresolved": [1, {
       "caseSensitive": true
     }],
