@@ -10,6 +10,7 @@ export function HeaderRightMobile() {
     <div className="media-mobile">
       <button
         type="button"
+        aria-label="Opens the menu bar"
         className={`${styles.toggleButton} ${isOpen ? styles.isOpen : null}`}
         onClick={() => setIsOpen(!isOpen)}
       >
