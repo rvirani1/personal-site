@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 import { BlogPost } from '../../components/blog/BlogPost'
 import { Layout } from '../../components/Layout'
-import sharedStyles from '../../components/blog/sharedStyles.module.css'
+import sharedStyles from '../../components/blog/sharedStyles.module.scss'
 import { ExternalLink } from '../../components/blog/ExternalLink'
 import { BlogHr } from '../../components/blog/BlogHr'
 
@@ -21,10 +21,10 @@ export default function LeadingPairProgramming() {
         <BlogPost titleText="Leading a Pair Programming Meetup" date="2016-01-23">
           <Image
             alt="Picture of Pair Programming Meetup"
-            layout="fixed"
+            layout="intrinsic"
             src="/blog-pics/pair-programming.jpeg"
             width={600}
-            height={300}
+            height={335}
           />
           <p className={sharedStyles.blogParagraph}>
             In July of 2015, I started hosting a Pair Programming meetup as a part of the&nbsp;

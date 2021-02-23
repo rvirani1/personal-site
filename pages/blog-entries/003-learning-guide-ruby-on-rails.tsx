@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import { BlogPost } from '../../components/blog/BlogPost'
 import { Layout } from '../../components/Layout'
-import sharedStyles from '../../components/blog/sharedStyles.module.css'
+import sharedStyles from '../../components/blog/sharedStyles.module.scss'
 import { ExternalLink } from '../../components/blog/ExternalLink'
 
 export default function BlogEntry() {

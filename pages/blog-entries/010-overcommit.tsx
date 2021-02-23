@@ -3,7 +3,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import { BlogPost } from '../../components/blog/BlogPost'
 import { Layout } from '../../components/Layout'
-import sharedStyles from '../../components/blog/sharedStyles.module.css'
+import sharedStyles from '../../components/blog/sharedStyles.module.scss'
 import { ExternalLink } from '../../components/blog/ExternalLink'
 
 export default function Overcommit() {
@@ -26,7 +26,7 @@ export default function Overcommit() {
           </p>
           <Image
             alt="Image of the Overcommit CLI"
-            layout="fixed"
+            layout="intrinsic"
             src="/blog-pics/overcommit.png"
             width={600}
             height={300}

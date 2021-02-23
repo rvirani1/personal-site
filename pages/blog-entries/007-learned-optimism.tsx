@@ -3,7 +3,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import { BlogPost } from '../../components/blog/BlogPost'
 import { Layout } from '../../components/Layout'
-import sharedStyles from '../../components/blog/sharedStyles.module.css'
+import sharedStyles from '../../components/blog/sharedStyles.module.scss'
 
 export default function LearnedOptimism() {
   return (

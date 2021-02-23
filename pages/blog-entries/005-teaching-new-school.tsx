@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 import { BlogPost } from '../../components/blog/BlogPost'
 import { Layout } from '../../components/Layout'
-import sharedStyles from '../../components/blog/sharedStyles.module.css'
+import sharedStyles from '../../components/blog/sharedStyles.module.scss'
 import { BlogHr } from '../../components/blog/BlogHr'
 
 export default function TeachingNewSchool() {
@@ -20,10 +20,10 @@ export default function TeachingNewSchool() {
         <BlogPost titleText="Teaching at The New School in Atlanta" date="2016-02-23">
           <Image
             alt="Picture of Pair Programming Meetup"
-            layout="fixed"
+            layout="intrinsic"
             src="/blog-pics/teaching-new-school.jpeg"
             width={600}
-            height={300}
+            height={275}
           />
           <p className={sharedStyles.blogParagraph}>
             Recently, I just finished teaching a month-long programming boot camp at a local
