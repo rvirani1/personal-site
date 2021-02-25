@@ -1,12 +1,12 @@
 .heroWrapper {
-  height: 325px;
-
   @media (min-width: 684px) {
     width: 250px;
+    height: 342px;
   }
 
   @media (max-width: 683px) {
     width: 100%;
+    height: 325px;
     display: flex;
     justify-content: center;
     margin-bottom: 2rem;
