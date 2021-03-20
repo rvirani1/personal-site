@@ -72,7 +72,7 @@ export default function Overcommit() {
             However, this can lead to some problems. You think you&lsquo;re looking at
             {' '}
             {/* eslint-disable-next-line react/no-unescaped-entities */}
-            <code>var a = "b"</code>
+            <code>let a = "b"</code>
             &nbsp;But it&lsquo;s actually doing a ton of magic to watch the value that expression to update the UI. So when
             it goes wrong. It&lsquo;s a little hard to debug.
           </p>
