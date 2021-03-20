@@ -19,8 +19,8 @@ export default function Overcommit() {
       <Layout>
         <BlogPost titleText="So I gave Svelte a Try" date="2021-03-19">
           <p className={sharedStyles.blogParagraph}>
-            When I first started writing this blog site, I wanted to try something new. I&lsquo;m a big believer in doing
-            what you know works for production, but still taking advantage of opportunities like this to try new
+            When I first started writing this blog, I wanted to try something new. I&lsquo;m a big believer in using
+            proven technologies in production, but still taking advantage of opportunities like this site to try new
             things.
           </p>
 
@@ -55,7 +55,7 @@ export default function Overcommit() {
             The recommended Svelte build tool is called&nbsp;
             <ExternalLink text="Sapper" href="https://sapper.svelte.dev/" />
             .
-            It&lsquo;s been deprecated in favor of a to be released build tool called Svelte Kitthat is
+            It&lsquo;s been deprecated in favor of a to be released build tool called Svelte Kit that is
             months and months delayed as of March 2021. They&lsquo;re also moving it to&nbsp;
             <ExternalLink text="Snowpack" href="https://www.snowpack.dev/" />
             &nbsp;for reasons?
