@@ -17,6 +17,12 @@ export default function One() {
       <Layout>
         <SearchLayout>
           <BlogSearchItem
+            titleText="So I gave Svelte a Try"
+            date="2021-03-19"
+            path="/blog-entries/011-svelte-a-try"
+            previewText="Svelte is a framework a la React and Vue. It uses a componentized approach just like those frameworks. However, it compiles down to plain JS with no runtime."
+          />
+          <BlogSearchItem
             titleText="Using the OverCommit Gem: The Poor Man's CI"
             date="2019-01-10"
             path="/blog-entries/010-overcommit"
