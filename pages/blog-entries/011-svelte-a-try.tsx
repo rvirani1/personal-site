@@ -6,7 +6,7 @@ import { Layout } from '../../components/Layout'
 import sharedStyles from '../../components/blog/sharedStyles.module.scss'
 import { ExternalLink } from '../../components/blog/ExternalLink'
 
-export default function Overcommit() {
+export default function SvelteTry() {
   return (
     <>
       <Head>

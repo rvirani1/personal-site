@@ -17,6 +17,12 @@ export default function One() {
       <Layout>
         <SearchLayout>
           <BlogSearchItem
+            titleText="Hidden Gems for Rails"
+            date="2021-04-04"
+            path="/blog-entries/012-hidden-gems-for-rails"
+            previewText="So the title for this post is pretty self-explanatory. Yes, there are the common popular gems everyone uses."
+          />
+          <BlogSearchItem
             titleText="So I gave Svelte a Try"
             date="2021-03-19"
             path="/blog-entries/011-svelte-a-try"
