@@ -9,16 +9,16 @@ import { TalkPreview } from './TalkPreview'
 type Props = {
   titleText: string,
   date: string,
-  youtubeUrl: string,
+  externalUrl: string,
   previewText: string,
   thumbnailImg: string
 }
 
 export const TalkSearchItem = React.memo(({
-  titleText, date, youtubeUrl, previewText, thumbnailImg,
+  titleText, date, externalUrl, previewText, thumbnailImg,
 }: Props) => (
   <div style={{ marginTop: 50, marginBottom: 50 }}>
-    <Link href={youtubeUrl}>
+    <Link href={externalUrl}>
       <a target="_blank" rel="noreferrer noopener" style={{ display: 'flex' }} className={styles.linkInner}>
         <div className={styles.imageOuter}>
           <Image
