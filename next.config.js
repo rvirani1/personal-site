@@ -5,4 +5,7 @@ module.exports = {
   images: {
     domains: ['riazv.me'],
   },
+  future: {
+    webpack5: true,
+  },
 }
