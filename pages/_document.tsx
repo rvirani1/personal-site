@@ -31,7 +31,7 @@ class MyDocument extends Document {
             src={`https://www.googletagmanager.com/gtag/js?id=${GA_TRACKING_ID}`}
           />
           <script
-            dangerouslySetInnerHTML={{ // eslint-ignore-line react/no-danger
+            dangerouslySetInnerHTML={{ // eslint-disable-line react/no-danger
               __html: `
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
