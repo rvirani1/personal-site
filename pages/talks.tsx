@@ -15,6 +15,14 @@ export default function Talks() {
       <Layout>
         <SearchLayout>
           <TalkSearchItem
+            titleText="RailsConf 2021: Missing Guide to Service Objects in Rails"
+            date="May 18, 2021"
+            externalUrl="https://www.youtube.com/watch?v=XH1fbvexqyU"
+            thumbnailImg="/talk-thumbnails/railsconf-2021.png"
+            previewText="This is my RailsConf 2021 talk regarding service objects."
+          />
+          <TalkHr />
+          <TalkSearchItem
             titleText="Using Services to Effectively Implement Business Logic in Rails"
             date="May 8, 2021"
             externalUrl="https://podcasts.apple.com/us/podcast/using-services-to-effectively-implement-business-logic/id1539988688?i=1000520883998"
