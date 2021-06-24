@@ -1,7 +1,10 @@
 import Head from 'next/head'
+import Image from 'next/image'
+
 import { BlogSearchItem } from '../../components/blog/BlogSearchItem'
 import { SearchLayout } from '../../components/layout/SearchLayout'
 import { Layout } from '../../components/Layout'
+import styles from '../../components/blog/blogSearchStyles.module.css'
 
 export default function One() {
   return (
@@ -16,6 +19,22 @@ export default function One() {
 
       <Layout>
         <SearchLayout>
+          <div style={{ marginTop: '2rem', marginBottom: '2rem' }}>
+            <Image src="/shout.svg" height={50} width={50} />
+            <h3 style={{ display: 'inline', marginRight: '2rem' }}>Heads Up</h3>
+            <p style={{ display: 'inline' }}>
+              My most recent amusing musings can be found at&nbsp;
+              <a href="https://dev.to/rvirani1" className={styles.link} target="_blank" rel="noreferrer noopener">
+                <span>DEV.to</span>
+                <span>&#8594;</span>
+              </a>
+            </p>
+          </div>
+
+          <div style={{ display: 'flex', justifyContent: 'center' }}>
+            <div style={{ height: '10px', backgroundColor: 'teal', width: '20%' }} />
+          </div>
+
           <BlogSearchItem
             titleText="Hidden Gems for Rails"
             date="2021-04-04"
