@@ -43,7 +43,7 @@ export const HeaderRightDeskop = () => {
         <a href="tel:\u002b\u0031\u0036\u0034\u0037\u0038\u0035\u0035\u0037\u0034\u0038\u0034'">
           <PhoneIcon />
         </a>
-        <a href="mailto:\u0068\u0069\u0040\u0072\u0069\u0061\u007a\u0076\u002e\u006d\u0065'">
+        <a href="mailto:riaz.n.virani@gmail.com">
           <EmailIcon />
         </a>
       </div>
