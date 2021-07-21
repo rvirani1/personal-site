@@ -10,11 +10,12 @@ module.exports = {
   async headers() {
     return [
       {
-        source: '/_next/image(.*)',
+        source: '/:all*(svg|jpg|png)',
+        locale: false,
         headers: [
           {
             key: 'Cache-Control',
-            value: 'public, max-age=1800, s-maxage=1800, stale-while-revalidate=1800',
+            value: 'public, max-age=9999999999, must-revalidate',
           }
         ],
       },
