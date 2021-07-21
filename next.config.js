@@ -5,7 +5,19 @@ module.exports = {
   images: {
     domains: ['riazv.me'],
   },
-  future: {
-    webpack5: true,
+  webpack5: true,
+
+  async headers() {
+    return [
+      {
+        source: '/_next/image(.*)',
+        headers: [
+          {
+            key: 'Cache-Control',
+            value: 'public, max-age=1800, s-maxage=1800, stale-while-revalidate=1800',
+          }
+        ],
+      },
+    ]
   },
 }
