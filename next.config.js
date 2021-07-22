@@ -7,6 +7,10 @@ module.exports = {
   },
   webpack5: true,
   reactStrictMode: true,
+  images: {
+    loader: 'imgix',
+    path: 'https://riazvme.imgix.net'
+  },
 
   async headers() {
     return [
