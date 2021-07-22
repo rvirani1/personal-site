@@ -5,6 +5,7 @@ import { PhoneIcon } from './PhoneIcon'
 import { EmailIcon } from './EmailIcon'
 import styles from './HeaderRightDesktop.module.css'
 import { HeaderActiveAccent } from './HeaderActiveAccent'
+import TwitterIcon from '../../icons/TwitterIcon'
 
 export const HeaderRightDeskop = () => {
   const router = useRouter()
@@ -45,6 +46,9 @@ export const HeaderRightDeskop = () => {
         </a>
         <a href="mailto:riaz.n.virani@gmail.com">
           <EmailIcon />
+        </a>
+        <a href="https://twitter.com/ViraniRiaz" style={{ marginLeft: '5px' }}>
+          <TwitterIcon />
         </a>
       </div>
     </span>

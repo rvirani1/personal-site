@@ -6,6 +6,7 @@ module.exports = {
     domains: ['riazv.me'],
   },
   webpack5: true,
+  reactStrictMode: true,
 
   async headers() {
     return [

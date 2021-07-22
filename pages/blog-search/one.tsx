@@ -19,16 +19,36 @@ export default function One() {
 
       <Layout>
         <SearchLayout>
-          <div style={{ marginTop: '2rem', marginBottom: '2rem' }}>
+          <div style={{
+            marginTop: '1.5rem',
+            marginBottom: '1.5rem',
+          }}
+          >
             <Image src="/shout.svg" height={50} width={50} />
             <h3 style={{ display: 'inline', marginRight: '2rem' }}>Heads Up</h3>
             <p style={{ display: 'inline' }}>
               My most recent amusing musings can be found at&nbsp;
+            </p>
+            <div style={{
+              display: 'inline-flex',
+              flexDirection: 'column',
+              marginLeft: '4px',
+            }}
+            >
               <a href="https://dev.to/rvirani1" className={styles.link} target="_blank" rel="noreferrer noopener">
                 <span>DEV.to</span>
                 <span>&#8594;</span>
               </a>
-            </p>
+              <a
+                href="https://www.indiehackers.com/rvirani"
+                className={styles.link}
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                <span>IndieHackers</span>
+                <span>&#8594;</span>
+              </a>
+            </div>
           </div>
 
           <div style={{ display: 'flex', justifyContent: 'center' }}>
