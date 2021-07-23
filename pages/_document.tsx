@@ -5,11 +5,6 @@ import Document, {
 import { GA_TRACKING_ID } from '../lib/gtag'
 
 class MyDocument extends Document {
-  static async getInitialProps(ctx: any) {
-    const initialProps = await Document.getInitialProps(ctx)
-    return { ...initialProps }
-  }
-
   render() {
     // noinspection SpellCheckingInspection
     return (
