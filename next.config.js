@@ -15,12 +15,12 @@ module.exports = {
   async headers() {
     return [
       {
-        source: '/:all*(svg|jpg|png)',
+        source: '/:all*(svg|jpg|png|css|woff2)',
         locale: false,
         headers: [
           {
             key: 'Cache-Control',
-            value: 'public, max-age=9999999999, must-revalidate',
+            value: 'public, max-age=9999999999, stale-while-revalidate',
           }
         ],
       },
