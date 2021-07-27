@@ -2,9 +2,10 @@ import React from 'react'
 
 // https://freeicons.io/e-cons-icons-set/the-envelope-icon-35483
 
-export const EmailIcon = () => (
+// @ts-ignore
+export const EmailIcon = ({ height = '1.25rem', style = {} }) => (
   <svg
-    style={{ height: '1.25rem' }}
+    style={{ height, ...style }}
     xmlns="http://www.w3.org/2000/svg"
     width="50"
     height="36"

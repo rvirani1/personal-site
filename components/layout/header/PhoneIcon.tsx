@@ -2,13 +2,14 @@ import React from 'react'
 
 // https://freeicons.io/e-cons-icons-set/phone-icon-35475
 
-export const PhoneIcon = () => (
+// @ts-ignore
+export const PhoneIcon = ({ height = '1.35rem', style = {} }) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width="33.83"
     height="50.03"
     viewBox="0 0 33.83 50.03"
-    style={{ height: '1.35rem' }}
+    style={{ height, ...style }}
   >
     <defs>
       {/* eslint-disable-next-line react/no-danger */}
