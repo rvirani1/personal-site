@@ -15,6 +15,14 @@ export default function Talks() {
       <Layout>
         <SearchLayout>
           <TalkSearchItem
+            titleText="Getting Started With Web Extensions"
+            date="August 19, 2021"
+            externalUrl="https://www.youtube.com/watch?v=hxiuQ2b9j5E"
+            thumbnailImg="/talk-thumbnails/web-extensions.png"
+            previewText="This is a presentation I have to HackerHours NYC"
+          />
+          <TalkHr />
+          <TalkSearchItem
             titleText="RailsConf 2021: Missing Guide to Service Objects in Rails"
             date="May 18, 2021"
             externalUrl="https://www.youtube.com/watch?v=XH1fbvexqyU"
