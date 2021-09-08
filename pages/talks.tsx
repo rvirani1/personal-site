@@ -27,7 +27,7 @@ export default function Talks() {
             date="August 19, 2021"
             externalUrl="https://www.youtube.com/watch?v=hxiuQ2b9j5E"
             thumbnailImg="/talk-thumbnails/web-extensions.png"
-            previewText="This is a presentation I have to HackerHours NYC"
+            previewText="This is a presentation I gave to HackerHours NYC."
           />
           <TalkHr />
           <TalkSearchItem
@@ -77,7 +77,7 @@ export default function Talks() {
             date="January 9, 2019"
             externalUrl="https://www.youtube.com/watch?v=XVEsCKGNkus"
             thumbnailImg="/talk-thumbnails/graphql-ruby.png"
-            previewText="This was a talk I gave at the Atlanta Ruby Meetup on GraphQL and Ruby"
+            previewText="This was a talk I gave at the Atlanta Ruby Meetup on GraphQL and Ruby."
           />
           <TalkHr />
           <TalkSearchItem
