@@ -15,11 +15,23 @@ export default function Talks() {
       <Layout>
         <SearchLayout>
           <TalkSearchItem
+            titleText="Pry Irresponsibly"
+            date="September 8, 2021"
+            externalUrl="https://www.youtube.com/watch?v=4OinPTpt3I8"
+            thumbnailImg="/talk-thumbnails/pry-irresponsibly.png"
+            previewText="I gave a talk at the Atlanta Ruby Meetup about the ridiculous things
+                        you can do during Ruby debugging. If you know Ruby and want to have some
+                        fun, this is a great one to check out."
+          />
+          <TalkHr />
+          <TalkSearchItem
             titleText="Guest on Rails With Jason Podcast"
             date="August 31, 2021"
             externalUrl="https://www.codewithjason.com/rails-with-jason-podcast/episodes/110-code-organization-project-management-and-freelancing-with-riaz-virani-br_ld0Qq/"
             thumbnailImg="/talk-thumbnails/rails-with-jason.png"
-            previewText="I was a guest on the Rails with Jason podcast. Check them out!"
+            previewText="I had a great time chatting with Jason at the Rails With Jason podcast.
+                         I did have an issue with my microphone, but most of it is audible.
+                         I was a guest on the Rails with Jason podcast. Check them out!"
           />
           <TalkHr />
           <TalkSearchItem
@@ -27,7 +39,8 @@ export default function Talks() {
             date="August 19, 2021"
             externalUrl="https://www.youtube.com/watch?v=hxiuQ2b9j5E"
             thumbnailImg="/talk-thumbnails/web-extensions.png"
-            previewText="This is a presentation I gave to HackerHours NYC."
+            previewText="This is a presentation I gave to HackerHours NYC about web extensions, i.e. Chrome
+                        extensions and how the browsers are working on standardizing all of that."
           />
           <TalkHr />
           <TalkSearchItem
@@ -35,7 +48,9 @@ export default function Talks() {
             date="May 18, 2021"
             externalUrl="https://www.youtube.com/watch?v=XH1fbvexqyU"
             thumbnailImg="/talk-thumbnails/railsconf-2021.png"
-            previewText="This is my RailsConf 2021 talk regarding service objects."
+            previewText="This is my RailsConf 2021 talk regarding service objects. I know this is a
+                        controversial topic in the Ruby world, but I try to present the options here
+                        without taking any sides."
           />
           <TalkHr />
           <TalkSearchItem
