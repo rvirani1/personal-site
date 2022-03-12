@@ -15,6 +15,15 @@ export default function Talks() {
       <Layout>
         <SearchLayout>
           <TalkSearchItem
+            titleText="The State of Reach State Management"
+            date="November 8, 2021"
+            externalUrl="https://www.youtube.com/watch?v=5TeVzysOhy4"
+            thumbnailImg="/talk-thumbnails/connect-tech.png"
+            previewText="This talk is about making sense of the expansive set of options you have for your React app for
+            state management."
+          />
+          <TalkHr />
+          <TalkSearchItem
             titleText="How to Thrive at Your (First) Dev Job"
             date="October 20, 2021"
             externalUrl="https://rubyrogues.com/how-to-thrive-at-your-first-dev-job-ft-riaz-virani-ruby-519"
