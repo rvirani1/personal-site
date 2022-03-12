@@ -7,7 +7,7 @@ import styles from './HeaderRightDesktop.module.css'
 import { HeaderActiveAccent } from './HeaderActiveAccent'
 import TwitterIcon from '../../icons/TwitterIcon'
 
-export const HeaderRightDeskop = () => {
+export function HeaderRightDeskop() {
   const router = useRouter()
   const { pathname } = router
   return (
