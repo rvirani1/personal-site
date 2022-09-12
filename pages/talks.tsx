@@ -15,7 +15,7 @@ export default function Talks() {
       <Layout>
         <SearchLayout>
           <TalkSearchItem
-            titleText="The State of Reach State Management"
+            titleText="The State of React State Management"
             date="November 8, 2021"
             externalUrl="https://www.youtube.com/watch?v=5TeVzysOhy4"
             thumbnailImg="/talk-thumbnails/connect-tech.png"
