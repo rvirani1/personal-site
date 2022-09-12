@@ -5,7 +5,6 @@ module.exports = {
   images: {
     domains: ['riazv.me'],
   },
-  webpack5: true,
   reactStrictMode: true,
   images: {
     loader: 'imgix',
