@@ -29,7 +29,7 @@ export default function Talks() {
             externalUrl="https://topenddevs.com/podcasts/ruby-rogues/episodes/how-to-thrive-at-your-first-dev-job-ft-riaz-virani-ruby-519"
             thumbnailImg="/talk-thumbnails/ruby-rogues.png"
             previewText="This was a great discussion on the Ruby Rogues podcast for new devs just starting out. Now
-            that I've done this for a while. It made sense to share some of the thigns I've learned for new devs."
+            that I've done this for a while. It made sense to share some of the things I've learned for new devs."
           />
           <TalkHr />
           <TalkSearchItem
