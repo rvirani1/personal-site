@@ -15,6 +15,14 @@ export default function Talks() {
       <Layout>
         <SearchLayout>
           <TalkSearchItem
+            titleText="Crazy About ChatGPT?"
+            date="January 18, 2023"
+            externalUrl="https://youtu.be/BKlJiYNgoWM"
+            thumbnailImg="/talk-thumbnails/chat-gpt.png"
+            previewText="Gave this talk at the Toronto React + Native Meetup about ChatGPT and OpenAI tooling."
+          />
+          <TalkHr />
+          <TalkSearchItem
             titleText="The State of React State Management"
             date="November 8, 2021"
             externalUrl="https://www.youtube.com/watch?v=5TeVzysOhy4"
