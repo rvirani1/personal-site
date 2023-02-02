@@ -18,7 +18,7 @@ export default function Talks() {
             titleText="Crazy About ChatGPT?"
             date="January 18, 2023"
             externalUrl="https://youtu.be/BKlJiYNgoWM"
-            thumbnailImg="/talk-thumbnails/chat-gpt.png"
+            thumbnailImg="/talk-thumbnails/chat-gpt.jpeg"
             previewText="Gave this talk at the Toronto React + Native Meetup about ChatGPT and OpenAI tooling."
           />
           <TalkHr />
