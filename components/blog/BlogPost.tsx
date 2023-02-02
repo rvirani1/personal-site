@@ -5,6 +5,7 @@ import { BlogHr } from './BlogHr'
 import { LinkToSearch } from './LinkToSearch'
 
 type Props = {
+  children?: React.ReactNode,
   titleText: string,
   date: string
 }

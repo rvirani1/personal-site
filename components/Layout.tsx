@@ -2,7 +2,11 @@ import React, { FunctionComponent } from 'react'
 import { Header } from './layout/Header'
 import styles from './Layout.module.css'
 
-export const Layout: FunctionComponent = ({ children }) => (
+interface LayoutProps {
+  children: React.ReactNode
+}
+
+export const Layout: FunctionComponent<LayoutProps> = ({ children }) => (
   <div className={styles.container}>
     <Header />
     <div className={styles.content}>
