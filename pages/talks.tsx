@@ -17,9 +17,17 @@ export default function Talks() {
           <TalkSearchItem
             titleText="Crazy About ChatGPT?"
             date="January 18, 2023"
-            externalUrl="https://youtu.be/BKlJiYNgoWM"
+            externalUrl="https://youtu.be/watch?v=BKlJiYNgoWM"
             thumbnailImg="/talk-thumbnails/chat-gpt.jpeg"
             previewText="Gave this talk at the Toronto React + Native Meetup about ChatGPT and OpenAI tooling."
+          />
+          <TalkHr />
+          <TalkSearchItem
+            titleText="Declarative Fetching Libraries"
+            date="November 9, 2022"
+            externalUrl="https://youtube.com/watch?v=A4QaldKpMJI"
+            thumbnailImg="/talk-thumbnails/connect-tech-2022.png"
+            previewText="Gave this talk at Connect Tech 2022 about declarative fetching libraries."
           />
           <TalkHr />
           <TalkSearchItem
