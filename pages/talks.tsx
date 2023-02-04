@@ -23,6 +23,14 @@ export default function Talks() {
           />
           <TalkHr />
           <TalkSearchItem
+            titleText="Writing Chrome Extensions in React"
+            date="December 2022"
+            externalUrl="https://portal.gitnation.org/contents/writing-chrome-extensions-in-react"
+            thumbnailImg="/talk-thumbnails/react-berlin.png"
+            previewText="Gave this virtual talk at React Day Berlin. Awesome conference!"
+          />
+          <TalkHr />
+          <TalkSearchItem
             titleText="Declarative Fetching Libraries"
             date="November 9, 2022"
             externalUrl="https://youtube.com/watch?v=A4QaldKpMJI"
