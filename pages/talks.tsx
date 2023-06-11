@@ -15,6 +15,14 @@ export default function Talks() {
       <Layout>
         <SearchLayout>
           <TalkSearchItem
+            titleText="Five Browser APIs You Should Know"
+            date="April 25, 2023"
+            externalUrl="https://www.youtube.com/watch?v=MaSBvhTmhmk"
+            thumbnailImg="/talk-thumbnails/apis-ipas.webp"
+            previewText="Had an amazing time giving this talk at a local meetup in Toronto"
+          />
+          <TalkHr />
+          <TalkSearchItem
             titleText="Crazy About ChatGPT?"
             date="January 18, 2023"
             externalUrl="https://youtu.be/watch?v=BKlJiYNgoWM"
