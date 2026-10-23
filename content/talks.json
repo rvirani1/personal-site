@@ -1,0 +1,21 @@
+[
+  { "title": "Unlocking AI: In-Depth Insights from Research", "venue": "TechTank", "date": "2024-08-15", "kind": "talk", "url": "https://www.youtube.com/watch?v=RUco7XrbMqk" },
+  { "title": "Innovations and Challenges in Health Tech", "venue": "TechTank", "date": "2024-05-16", "kind": "talk", "url": "https://www.youtube.com/watch?v=tMoqGyfVkGA" },
+  { "title": "Five Browser APIs You Should Know", "venue": "APIs and IPAs Toronto", "date": "2023-04-25", "kind": "talk", "url": "https://www.youtube.com/watch?v=MaSBvhTmhmk" },
+  { "title": "Using OpenAI Tooling In Your App", "venue": "React + Native Meetup Toronto", "date": "2023-01-18", "kind": "talk", "url": "https://www.youtube.com/watch?v=BKlJiYNgoWM" },
+  { "title": "Writing Chrome Extensions", "venue": "React Day Berlin", "date": "2022-12-05", "kind": "talk" },
+  { "title": "Declarative Fetching Libraries", "venue": "Connect Tech 2022", "date": "2022-11-09", "kind": "talk", "url": "https://www.youtube.com/watch?v=A4QaldKpMJI" },
+  { "title": "The State of React State Management", "venue": "Connect Tech 2021", "date": "2021-11-08", "kind": "talk", "url": "https://www.youtube.com/watch?v=5TeVzysOhy4" },
+  { "title": "Episode 519", "venue": "Ruby Rogues Podcast", "date": "2021-10-20", "kind": "podcast" },
+  { "title": "Pry Irresponsibly", "venue": "Atlanta Ruby Group", "date": "2021-09-08", "kind": "talk", "url": "https://www.youtube.com/watch?v=4OinPTpt3I8" },
+  { "title": "Episode 110", "venue": "Code With Jason Podcast", "date": "2021-08-31", "kind": "podcast" },
+  { "title": "Getting Started with Web Extensions", "venue": "Hacker Hours NYC", "date": "2021-08-19", "kind": "talk", "url": "https://www.youtube.com/watch?v=hxiuQ2b9j5E" },
+  { "title": "The Missing Guide to Service Objects", "venue": "RailsConf 2021", "date": "2021-05-18", "kind": "talk", "url": "https://www.youtube.com/watch?v=XH1fbvexqyU" },
+  { "title": "Using Services to Effectively Implement Business Logic", "venue": "Steam Powered Podcast by Engine Yard", "date": "2021-05-08", "kind": "podcast" },
+  { "title": "Episode 199", "venue": "Drifting Ruby Podcast", "date": "2019-05-15", "kind": "podcast" },
+  { "title": "Episode 74", "venue": "Supply Chain Now Podcast", "date": "2019-05-06", "kind": "podcast" },
+  { "title": "GraphQL Loves Ruby", "venue": "Atlanta Ruby Group", "date": "2019-01-09", "kind": "talk", "url": "https://www.youtube.com/watch?v=XVEsCKGNkus" },
+  { "title": "JavaScript Everywhere", "venue": "Atlanta JavaScript Group", "date": "2017-03-03", "kind": "talk", "url": "https://www.youtube.com/watch?v=d1upI3mwfNY" },
+  { "title": "WebRTC for your App", "venue": "Atlanta Ruby Group", "date": "2016-05-18", "kind": "talk", "url": "https://www.youtube.com/watch?v=kC12enYIBKE" },
+  { "title": "A Real-Time Presentation System", "venue": "Curly Braces Conference 2015", "date": "2015-05-05", "kind": "talk", "url": "https://www.youtube.com/watch?v=hsAyl7U3G1E" }
+]

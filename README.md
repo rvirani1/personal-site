@@ -1,34 +1,44 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# dreamsn.codes
 
-## Getting Started
+Riaz Virani's personal site: a home for the brain log, book notes, talks, projects, and whatever gets built next.
 
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
+```
+content/      Everything you read on the site, as Markdown and JSON. Edit here.
+apps/web/     React front end (Vite). Every page is prerendered to static HTML.
+apps/api/     Python back end (FastAPI). A shell today; search and AI experiments later.
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Run it
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+```sh
+pnpm install
+pnpm dev          # front end at http://localhost:5173
+pnpm build        # static site in apps/web/dist
+pnpm test         # front-end unit tests
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.tsx`.
+pnpm api          # back end at http://localhost:8000 (needs uv: https://docs.astral.sh/uv/)
+cd apps/api && uv run pytest
+```
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## Writing
 
-## Learn More
+- **Brain log:** add `content/brain-log/YYYY-MM-DD-slug.md`. See [the format](content/brain-log/README.md).
+- **Books:** add the book to `content/books.json`. For notes, give it a `slug` and add `content/books/<slug>.md`, with an optional cover in `apps/web/public/covers/<slug>.webp`.
+- **Now, intro and links:** `content/site.json`.
+- **Talks, podcasts, projects:** the matching JSON file in `content/`.
 
-To learn more about Next.js, take a look at the following resources:
+Search, the RSS feed (`/feed.xml`) and the sitemap are generated from `content/` on every build.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## How the front end works
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+No framework beyond React. On purpose: fewer moving parts for people and AIs to keep up with.
 
-## Deploy on Vercel
+- `content-plugin.ts` turns Markdown into HTML at build time, so no Markdown parser ships to the browser.
+- `src/router.tsx` is a ~90-line router on the History API. Links are plain `<a>` tags.
+- `scripts/prerender.mjs` renders every route to HTML and inlines the CSS, so pages paint before any JavaScript runs. React then hydrates for instant client-side navigation and search.
+- System fonts only, so no font downloads.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Deploying
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+The front end is a folder of static files (`apps/web/dist`), so it can go anywhere. `vercel.json` is set up for Vercel.
+The API ships as a container (`apps/api/Dockerfile`, built from the repo root), ready for Google Cloud Run or similar.

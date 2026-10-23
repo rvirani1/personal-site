@@ -1,40 +1,16 @@
 {
-  "name": "riazv-me",
-  "version": "0.1.0",
+  "name": "dreamsncodes",
   "private": true,
-  "scripts": {
-    "build": "next build",
-    "cypress:open": "cypress open",
-    "dev": "next dev",
-    "lint": "tsc && eslint --cache --ext .js --ext .jsx --ext .ts --ext .tsx .",
-    "lint:fix": "eslint --cache --ext .js --ext .jsx --ext .ts --ext .tsx --fix .",
-    "postinstall": "husky install",
-    "start": "next start"
-  },
+  "packageManager": "pnpm@10.18.0",
   "engines": {
-    "node": "18"
+    "node": ">=22"
   },
-  "dependencies": {
-    "next": "^12.3.1",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "sass": "^1.58.0"
-  },
-  "devDependencies": {
-    "@types/node": "^18.11.18",
-    "@types/react": "^18.0.27",
-    "@typescript-eslint/eslint-plugin": "^5.49.0",
-    "@typescript-eslint/parser": "^5.36.2",
-    "cypress": "^12.5.1",
-    "eslint": "^8.33.0",
-    "eslint-config-airbnb": "^19.0.4",
-    "eslint-config-airbnb-typescript": "^17.0.0",
-    "eslint-config-next": "^13.1.6",
-    "eslint-plugin-import": "^2.27.5",
-    "eslint-plugin-jsx-a11y": "^6.7.1",
-    "eslint-plugin-react": "^7.32.2",
-    "eslint-plugin-react-hooks": "^4.3.0",
-    "husky": "^8.0.3",
-    "typescript": "^4.9.5"
+  "scripts": {
+    "dev": "pnpm --filter web dev",
+    "build": "pnpm --filter web build",
+    "preview": "pnpm --filter web preview",
+    "test": "pnpm --filter web test",
+    "typecheck": "pnpm --filter web typecheck",
+    "api": "cd apps/api && uv run fastapi dev src/api/main.py"
   }
 }

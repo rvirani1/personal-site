@@ -1,0 +1,28 @@
+{
+  "name": "Riaz Virani",
+  "domain": "dreamsn.codes",
+  "tagline": "I ❤️ software",
+  "description": "Riaz Virani builds software in New York. Book notes, talks, projects, and a freeform brain log.",
+  "intro": "I love software. I build things, read a lot, and write down what I’m thinking so I can think better.",
+  "location": "NYC",
+  "facts": [
+    { "emoji": "🍎", "text": "Vibing in NYC" },
+    { "emoji": "📖", "text": "Obsessed with books" },
+    { "emoji": "👓", "text": "Experimenting with computer vision", "url": "https://hydrovisor.live" }
+  ],
+  "now": {
+    "updated": "2026-10-23",
+    "headline": "Living in New York, reading constantly, and building this site so I have a home for my projects and my thinking.",
+    "items": [
+      { "label": "Living", "text": "In New York City, and loving it." },
+      { "label": "Building", "text": "This site, from scratch: a React front end, and a Python back end I’m learning as I go.", "url": "/projects", "linkText": "Projects" },
+      { "label": "Experimenting", "text": "With computer vision on Hydrovisor.", "url": "https://hydrovisor.live", "linkText": "hydrovisor.live" },
+      { "label": "Reading", "text": "Always. The running list, with notes, lives on the books page.", "url": "/books", "linkText": "Books" }
+    ]
+  },
+  "links": [
+    { "label": "Email", "handle": "riaz@dreamsn.codes", "url": "mailto:riaz@dreamsn.codes" },
+    { "label": "LinkedIn", "handle": "riaz-v", "url": "https://www.linkedin.com/in/riaz-v-72538a7/" },
+    { "label": "GitHub", "handle": "rvirani1", "url": "https://github.com/rvirani1" }
+  ]
+}
