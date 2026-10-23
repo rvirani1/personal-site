@@ -1,0 +1,3 @@
+[
+  {"name": "dreamsn.codes", "url": "https://github.com/rvirani1/personal-site", "status": "Building", "description": "This site. A fast, hand-rolled React front end with prerendered pages, and a Python (FastAPI) back end that will grow into search, a personal AI over the brain log, and other experiments.", "tags": ["react", "python", "fastapi"]}
+]
