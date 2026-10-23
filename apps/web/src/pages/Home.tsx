@@ -11,6 +11,9 @@ const SECOND_BRAIN = [
   { href: '/projects', label: 'Things I’m building', note: 'Projects and experiments' },
 ]
 
+// Facts may link out; the JSON doesn't always include a url, so widen the type.
+const facts: { emoji: string; text: string; url?: string }[] = site.facts
+
 export function Home() {
   const recent = brainLog.filter((e) => !e.archive).slice(0, 3)
   const latest = recent.length ? recent : brainLog.slice(0, 3)
@@ -22,7 +25,7 @@ export function Home() {
           <h1>Hi, I’m Riaz.</h1>
           <p className="lede">{site.intro}</p>
           <ul className="facts">
-            {site.facts.map((f) => (
+            {facts.map((f) => (
               <li key={f.text}>
                 <span aria-hidden="true">{f.emoji}</span>{' '}
                 {f.url ? <a href={f.url} target="_blank" rel="noopener noreferrer">{f.text}</a> : f.text}

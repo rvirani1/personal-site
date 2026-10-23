@@ -7,8 +7,7 @@
   "location": "NYC",
   "facts": [
     { "emoji": "🍎", "text": "Vibing in NYC" },
-    { "emoji": "📖", "text": "Obsessed with books" },
-    { "emoji": "👓", "text": "Experimenting with computer vision", "url": "https://hydrovisor.live" }
+    { "emoji": "📖", "text": "Obsessed with books" }
   ],
   "now": {
     "updated": "2026-10-23",
@@ -16,7 +15,6 @@
     "items": [
       { "label": "Living", "text": "In New York City, and loving it." },
       { "label": "Building", "text": "This site, from scratch: a React front end, and a Python back end I’m learning as I go.", "url": "/projects", "linkText": "Projects" },
-      { "label": "Experimenting", "text": "With computer vision on Hydrovisor.", "url": "https://hydrovisor.live", "linkText": "hydrovisor.live" },
       { "label": "Reading", "text": "Always. The running list, with notes, lives on the books page.", "url": "/books", "linkText": "Books" }
     ]
   },
