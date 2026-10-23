@@ -40,5 +40,4 @@ No framework beyond React. On purpose: fewer moving parts for people and AIs to 
 
 ## Deploying
 
-The front end is a folder of static files (`apps/web/dist`), so it can go anywhere. `vercel.json` is set up for Vercel.
-The API ships as a container (`apps/api/Dockerfile`, built from the repo root), ready for Google Cloud Run or similar.
+The front end is on Vercel and the API will go on Google Cloud Run. Step-by-step instructions are in [docs/deploying.md](docs/deploying.md).
